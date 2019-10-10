@@ -2,10 +2,10 @@
   {
     "description":"登陆接口,成功后返回cookies",
     "request":{
-      "uri":"/login",
+      "uri":"/v1/login",
       "method":"post",
       "json":{
-        "name":"zhangsan",
+        "userName":"zhangsan",
         "password":"123456"
       }
     },
@@ -19,7 +19,7 @@
   {
     "description":"获取用户信息接口",
     "request":{
-      "uri":"/getUserInfo",
+      "uri":"/v1/getUserInfo",
       "method":"post",
       "json":{
         "userId":"1"
@@ -43,7 +43,7 @@
   {
     "description":"获取用户信息接口",
     "request":{
-      "uri":"/getUserInfo",
+      "uri":"/v1/getUserInfo",
       "method":"post",
       "json":{
         "userId":"1"
@@ -67,7 +67,7 @@
   {
     "description":"获取用户信息接口",
     "request":{
-      "uri":"/getUserListInfo",
+      "uri":"/v1/getUserListInfo",
       "method":"post",
       "json":{
         "sex":"0"
@@ -113,7 +113,7 @@
   {
     "description":"增加用户接口",
     "request":{
-      "uri":"/addUser",
+      "uri":"/v1/addUser",
       "method":"post",
       "json":{
         "userName":"zhao9",
@@ -132,9 +132,9 @@
     }
   },
   {
-    "description":"增加用户接口",
+    "description":"更新用户接口",
     "request":{
-      "uri":"/updateUserInfo",
+      "uri":"/v1/updateUserInfo",
       "method":"post",
       "json":{
         "userId":"2",
@@ -151,7 +151,7 @@
   {
     "description":"删除用户接口",
     "request":{
-      "uri":"/deleteUser",
+      "uri":"/v1/deleteUser",
       "method":"post",
       "json":{
         "userId":"8"
