@@ -1,0 +1,5 @@
+cd ../Chapter13
+mvn clean package
+
+java -jar E:\Gitworkspace\AutoTest\Chapter13\target\Chapter13-1.0-SNAPSHOT.jar
+程序打包
